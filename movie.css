@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+body {
+	font-size: 8pt;
+	background-image: url("images/moviebg.png");
+	background-repeat: repeat;
+	
+}
+
+
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	border-radius: 20px;
+	overflow: hidden;
+	background-color: lightgray;
+	box-shadow: 10px 10px gray;
+	height:100%;
+}
+
+#list {
+	margin-left: 27%;
+}
+
+fieldset {
+	width: 55%;
+	border: 1px solid #61B5CF;
+}
+
+#toppart {
+	background-image: url(images/rancidbannerbg.png);
+	background-repeat: repeat-x;
+	width: 100%;
+}
+
+h1 {
+	font-family: "Times New Roman", Georgia, sans-serif;
+	text-shadow: 2px 2px dimgray;
+	font-size: 24pt;
+	text-align: center;
+}
+
+.rottenIcon {
+	float: left;
+	padding-right: 40px;
+}
+
+#rightpart {
+	display: table;
+	border-top-left-radius: 25px;
+	width: 250px;
+	float: right;	
+	display: block;
+}
+#rightimage {
+	width: 250px;
+	float:right;
+	height:400px;
+	margin-bottom:0px;
+} 
+ #righttext {
+	font-family: "Arial", Helvetica, sans-serif;
+	background-color: darkseagreen;
+	text-align: left;
+	padding-bottom:100%;
+	float:right;
+	padding-right:5px;	
+}
+
+#leftpart {
+	float: left;
+	width: 550px;
+}
+
+#lefthead {
+	height: 83px;
+	font-weight: bold;
+	background-image: url("images/rottenlargebg.png");
+	background-repeat: repeat-x;
+	border-top-left-radius: 25px;
+	color: red;
+	font-family: sans-serif;
+	font-size: 48pt;
+	text-align: left;
+}
+
+img.icon {
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+#column1 {
+	width: 255px;
+	text-align: left;
+	float: right;
+	font-family: "Times New Roman", Georgia, sans-serif;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#column2 {
+	width: 255px;
+	text-align: left;
+	float: left;
+	font-family: "Times New Roman", Georgia, sans-serif;
+	margin-left: 20px;
+}
+
+.box {
+	font-family: "Times New Roman", sans-serif;
+	margin-bottom: 0px;
+	width: 233px;
+	border: 2px solid darkgray;
+	background-color: white;
+	border-radius: 20px;
+	text-align: left;
+	font-size: 10pt;
+	padding: 8px;
+	overflow: hidden;
+	font-size: 10pt;
+}
+
+.review {
+	height: 150px;
+}
+
+.person {
+	font-style: italic;
+	margin-top: 0px;
+}
+
+dt {
+	font-weight: bold;
+	margin-right: 12px;
+	margin-left: 12px;
+	margin-top: 5px;
+}
+
+.padding {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	padding-top: 0px;
+}
+
+#bottompart {
+	background-color: darkseagreen;
+	float: left;
+	clear: both;
+	width: 800px;
+	
+	padding-left: 250px;
+	padding-top: 0px;
+}
